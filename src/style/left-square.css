@@ -1,0 +1,8 @@
+.left-square {
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 30px;
+}

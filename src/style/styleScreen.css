@@ -1,0 +1,1391 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .screen .div {
+    background-color: #ffffff;
+    height: 5037px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .screen .overlap {
+    height: 11528px;
+    left: -960px;
+    position: absolute;
+    top: -120px;
+    width: 100%;
+  }
+  
+  .screen .overlap-group {
+    height: 11528px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 3173px;
+  }
+  
+  .screen .view {
+    background-color: #f3f2f9;
+    height: 11407px;
+    left: 960px;
+    position: absolute;
+    top: 121px;
+    width: 1920px;
+  }
+  
+  .screen .text-wrapper {
+    color: #000000;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 1084px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 152px;
+    width: 144px;
+  }
+  
+  .screen .text-wrapper-2 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1329px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 166px;
+  }
+  
+  .screen .span-wrapper {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1501px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 166px;
+  }
+  
+  .screen .span {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .screen .text-wrapper-3 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 2472px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 166px;
+  }
+  
+  .screen .text-wrapper-4 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 2081px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 166px;
+  }
+  
+  .screen .text-wrapper-5 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1779px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 166px;
+  }
+  
+  .screen .element-photo-t {
+    height: 904px;
+    left: 36px;
+    object-fit: cover;
+    position: absolute;
+    top: 1115px;
+    width: 1849px;
+  }
+  
+  .screen .rectangle {
+    height: 446px;
+    left: 0;
+    position: absolute;
+    top: 1610px;
+    width: 761px;
+  }
+  
+  .screen .rectangle-2 {
+    background: linear-gradient(
+      180deg,
+      rgb(165, 173, 223) 44.27%,
+      rgb(106.54, 120.35, 202.4) 59.07%,
+      rgb(41.33, 59.41, 167.9) 78.81%,
+      rgb(35.87, 49.09, 145.55) 97.03%
+    );
+    border-radius: 0px 25px 25px 0px;
+    height: 388px;
+    left: 995px;
+    position: absolute;
+    top: 764px;
+    width: 702px;
+  }
+  
+  .screen .rectangle-3 {
+    background: linear-gradient(
+      180deg,
+      rgb(165, 173, 223) 44.27%,
+      rgb(106.54, 120.35, 202.4) 59.07%,
+      rgb(41.33, 59.41, 167.9) 78.81%,
+      rgb(35.87, 49.09, 145.55) 97.03%
+    );
+    border-radius: 0px 25px 25px 0px;
+    height: 388px;
+    left: 995px;
+    position: absolute;
+    top: 4150px;
+    width: 702px;
+  }
+  
+  .screen .rectangle-4 {
+    background: linear-gradient(
+      180deg,
+      rgb(165, 173, 223) 44.27%,
+      rgb(106.54, 120.35, 202.4) 59.07%,
+      rgb(41.33, 59.41, 167.9) 78.81%,
+      rgb(35.87, 49.09, 145.55) 97.03%
+    );
+    border-radius: 25px;
+    height: 509px;
+    left: 996px;
+    position: absolute;
+    top: 4590px;
+    width: 1849px;
+  }
+  
+  .screen .rectangle-5 {
+    background: linear-gradient(
+      180deg,
+      rgb(165, 173, 223) 44.27%,
+      rgb(106.54, 120.35, 202.4) 59.07%,
+      rgb(41.33, 59.41, 167.9) 78.81%,
+      rgb(35.87, 49.09, 145.55) 97.03%
+    );
+    border-radius: 25px;
+    height: 599px;
+    left: 995px;
+    position: absolute;
+    top: 2386px;
+    width: 599px;
+  }
+  
+  .screen .rectangle-6 {
+    background-color: #e9e7e7;
+    border-radius: 25px;
+    height: 599px;
+    left: 995px;
+    position: absolute;
+    top: 3004px;
+    width: 599px;
+  }
+  
+  .screen .rectangle-7 {
+    background-color: #e9e7e7;
+    border-radius: 25px;
+    height: 599px;
+    left: 1620px;
+    position: absolute;
+    top: 2386px;
+    width: 600px;
+  }
+  
+  .screen .rectangle-8 {
+    background: linear-gradient(
+      180deg,
+      rgb(165, 173, 223) 44.27%,
+      rgb(106.54, 120.35, 202.4) 59.07%,
+      rgb(41.33, 59.41, 167.9) 78.81%,
+      rgb(35.87, 49.09, 145.55) 97.03%
+    );
+    border-radius: 25px;
+    height: 599px;
+    left: 1620px;
+    position: absolute;
+    top: 3004px;
+    width: 600px;
+  }
+  
+  .screen .rectangle-9 {
+    background: linear-gradient(
+      180deg,
+      rgb(165, 173, 223) 44.27%,
+      rgb(106.54, 120.35, 202.4) 59.07%,
+      rgb(41.33, 59.41, 167.9) 78.81%,
+      rgb(35.87, 49.09, 145.55) 97.03%
+    );
+    border-radius: 25px;
+    height: 599px;
+    left: 2246px;
+    position: absolute;
+    top: 2386px;
+    width: 599px;
+  }
+  
+  .screen .rectangle-10 {
+    background-color: #e9e7e7;
+    border-radius: 25px;
+    height: 599px;
+    left: 2246px;
+    position: absolute;
+    top: 3004px;
+    width: 599px;
+  }
+  
+  .screen .rectangle-11 {
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 825px;
+    left: 996px;
+    position: absolute;
+    top: 1170px;
+    width: 914px;
+  }
+  
+  .screen .rectangle-12 {
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 825px;
+    left: 1931px;
+    position: absolute;
+    top: 1170px;
+    width: 914px;
+  }
+  
+  .screen .CCI-france-russie {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1031px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 826px;
+    width: 657px;
+  }
+  
+  .screen .p {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1031px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4212px;
+    width: 657px;
+  }
+  
+  .screen .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 169px;
+    left: 1751px;
+    position: absolute;
+    top: 4660px;
+    width: 657px;
+  }
+  
+  .screen .text {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+  }
+  
+  .screen .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .screen .text-wrapper-7 {
+    text-decoration: underline;
+  }
+  
+  .screen .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 1045px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5038px;
+  }
+  
+  .screen .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 2536px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5038px;
+  }
+  
+  .screen .text-wrapper-10 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1990px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1398px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-11 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1066px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1496px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-12 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1990px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1496px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-13 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1066px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1596px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-14 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1990px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1596px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-15 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1066px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1694px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-16 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1990px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1694px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-17 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1066px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1794px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-18 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1990px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1794px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-19 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1066px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1912px;
+    width: 366px;
+  }
+  
+  .screen .text-wrapper-20 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1990px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1912px;
+    width: 366px;
+  }
+  
+  .screen .text-wrapper-21 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 2224px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1398px;
+    width: 489px;
+  }
+  
+  .screen .text-wrapper-22 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1484px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-23 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 2224px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1484px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-24 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1596px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-25 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 2224px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1584px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-26 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1694px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-27 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1038px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2538px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-28 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 2303px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2538px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-29 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1672px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2538px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-30 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 2224px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1682px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-31 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1794px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-32 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 2224px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1782px;
+    width: 421px;
+  }
+  
+  .screen .text-wrapper-33 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 1066px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1238px;
+    width: 657px;
+  }
+  
+  .screen .text-wrapper-34 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 1039px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2438px;
+  }
+  
+  .screen .text-wrapper-35 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 1672px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2438px;
+  }
+  
+  .screen .text-wrapper-36 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 2306px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2438px;
+  }
+  
+  .screen .text-wrapper-37 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 1650px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3060px;
+  }
+  
+  .screen .text-wrapper-38 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 2306px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3054px;
+  }
+  
+  .screen .text-wrapper-39 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 1042px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3054px;
+  }
+  
+  .screen .text-wrapper-40 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 1990px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1238px;
+    width: 657px;
+  }
+  
+  .screen .group {
+    height: 47px;
+    left: 1031px;
+    position: absolute;
+    top: 1014px;
+    width: 213px;
+  }
+  
+  .screen .overlap-group-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 47px;
+    position: relative;
+    width: 211px;
+  }
+  
+  .screen .left-square-instance {
+    left: 169px !important;
+    top: 9px !important;
+    transform: unset !important;
+  }
+  
+  .screen .text-wrapper-41 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+  }
+  
+  .screen .overlap-wrapper {
+    height: 47px;
+    left: 1031px;
+    position: absolute;
+    top: 4400px;
+    width: 213px;
+  }
+  
+  .screen .rectangle-13 {
+    background-color: #f3f2f9;
+    border-radius: 10px;
+    height: 70px;
+    left: 1679px;
+    position: absolute;
+    top: 1236px;
+    width: 70px;
+  }
+  
+  .screen .rectangle-14 {
+    background-color: #f3f2f9;
+    height: 99px;
+    left: 991px;
+    position: absolute;
+    top: 1368px;
+    width: 924px;
+  }
+  
+  .screen .text-wrapper-42 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1066px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1398px;
+    width: 160px;
+  }
+  
+  .screen .text-wrapper-43 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1398px;
+    width: 421px;
+  }
+  
+  .screen .element {
+    height: 334px;
+    left: 1411px;
+    position: absolute;
+    top: 0;
+    width: 350px;
+  }
+  
+  .screen .img {
+    height: 334px;
+    left: 785px;
+    position: absolute;
+    top: 617px;
+    width: 350px;
+  }
+  
+  .screen .text-wrapper-44 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1338px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2906px;
+  }
+  
+  .screen .text-wrapper-45 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 2591px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2906px;
+  }
+  
+  .screen .text-wrapper-46 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1965px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3516px;
+  }
+  
+  .screen .text-wrapper-47 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1965px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2906px;
+  }
+  
+  .screen .text-wrapper-48 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 2600px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3520px;
+  }
+  
+  .screen .text-wrapper-49 {
+    color: #040d67;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1338px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3520px;
+  }
+  
+  .screen .design-component-instance-node {
+    height: 45px !important;
+    left: 1798px !important;
+    top: 384px !important;
+    transform: unset !important;
+    width: 45px !important;
+  }
+  
+  .screen .left-square-2 {
+    height: 45px !important;
+    left: 1172px !important;
+    top: 993px !important;
+    transform: unset !important;
+    width: 45px !important;
+  }
+  
+  .screen .left-square-3 {
+    height: 45px !important;
+    left: 1172px !important;
+    top: 384px !important;
+    transform: unset !important;
+    width: 45px !important;
+  }
+  
+  .screen .left-square-4 {
+    height: 45px !important;
+    left: 1807px !important;
+    top: 998px !important;
+    transform: unset !important;
+    width: 45px !important;
+  }
+  
+  .screen .text-wrapper-50 {
+    color: #ffffff;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1170px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4670px;
+    width: 202px;
+  }
+  
+  .screen .line {
+    height: 1px;
+    left: 85px;
+    object-fit: cover;
+    position: absolute;
+    top: 2478px;
+    width: 1726px;
+  }
+  
+  .screen .flexcontainer-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 169px;
+    left: 2516px;
+    position: absolute;
+    top: 4660px;
+    width: 657px;
+  }
+  
+  .screen .social-icons-VK {
+    height: 30px;
+    left: 998px;
+    position: absolute;
+    top: 2311px;
+    width: 30px;
+  }
+  
+  .screen .social-icons {
+    height: 30px;
+    left: 947px;
+    position: absolute;
+    top: 2311px;
+    width: 30px;
+  }
+  
+  .screen .mask-group {
+    height: 256px;
+    left: 554px;
+    position: absolute;
+    top: 1775px;
+    width: 188px;
+  }
+  
+  .screen .element-gb-photo-t {
+    background: linear-gradient(180deg, rgba(4, 13, 103, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 25px;
+    height: 904px;
+    left: 996px;
+    position: absolute;
+    top: 248px;
+    width: 1849px;
+  }
+  
+  .screen .element-photo-t-2 {
+    background: linear-gradient(180deg, rgba(4, 13, 103, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 25px;
+    height: 904px;
+    left: 996px;
+    position: absolute;
+    top: 3634px;
+    width: 1849px;
+  }
+  
+  .screen .CCI-france-russie-2 {
+    color: #ffffff;
+    font-family: "Geologica-Medium", Helvetica;
+    font-size: 90px;
+    font-weight: 500;
+    left: 1078px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 360px;
+    width: 1713px;
+  }
+  
+  .screen .CCI-france-russie-3 {
+    color: #ffffff;
+    font-family: "Geologica-Medium", Helvetica;
+    font-size: 90px;
+    font-weight: 500;
+    left: 1078px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3734px;
+    width: 1713px;
+  }
+  
+  .screen .CCI-amcham {
+    color: #000000;
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 3152px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 581px;
+  }
+  
+  .screen .element-2 {
+    height: 334px;
+    left: 160px;
+    position: absolute;
+    top: 0;
+    width: 350px;
+  }
+  
+  .screen .left-square-5 {
+    height: 45px !important;
+    left: 545px !important;
+    top: 384px !important;
+    transform: unset !important;
+    width: 45px !important;
+  }
+  
+  .screen .left-square-6 {
+    height: 45px !important;
+    left: 545px !important;
+    top: 998px !important;
+    transform: unset !important;
+    width: 45px !important;
+  }
+  
+  .screen .png {
+    height: 104px;
+    left: 85px;
+    object-fit: cover;
+    position: absolute;
+    top: 2142px;
+    width: 104px;
+  }
+  
+  .screen .social-icons-youtube {
+    height: 30px;
+    left: 897px;
+    position: absolute;
+    top: 2311px;
+    width: 30px;
+  }
+  
+  .screen .social-icons-2 {
+    height: 30px;
+    left: 842px;
+    position: absolute;
+    top: 2311px;
+    width: 30px;
+  }
+  
+  .screen .social-icons-x {
+    height: 30px;
+    left: 791px;
+    position: absolute;
+    top: 2311px;
+    width: 30px;
+  }
+  
+  .screen .element-wrapper {
+    background-image: url(../assets/2024-06-05-09-22-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 2930px;
+    left: -1442px;
+    position: absolute;
+    top: 26558px;
+    width: 1488px;
+  }
+  
+  .screen .element-3 {
+    height: 1032px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1319px;
+  }
+  
+  .screen .png-2 {
+    height: 74px;
+    left: -925px;
+    object-fit: cover;
+    position: absolute;
+    top: -2494px;
+    width: 74px;
+  }
+  
+  .screen .icon {
+    height: 9px;
+    left: -522px;
+    position: absolute;
+    top: -2462px;
+    width: 19px;
+  }
+  
+  .screen .search-instance {
+    left: 904px !important;
+    top: -2468px !important;
+  }
+  
+  .screen .overlap-2 {
+    height: 941px;
+    left: -960px;
+    position: absolute;
+    top: -2392px;
+    width: 1885px;
+  }
+  
+  .screen .element-photo-t-3 {
+    height: 904px;
+    left: 36px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1849px;
+  }
+  
+  .screen .rectangle-15 {
+    height: 446px;
+    left: 0;
+    position: absolute;
+    top: 495px;
+    width: 761px;
+  }
+  
+  .screen .mask-group-2 {
+    height: 256px;
+    left: 553px;
+    position: absolute;
+    top: 660px;
+    width: 188px;
+  }
+  
+  .screen .CCI-france-russie-4 {
+    height: 191px;
+    left: -670px;
+    position: absolute;
+    top: -559px;
+    width: 1315px;
+  }
+  
+  .screen .left-square-7 {
+    height: 45px !important;
+    left: -131px !important;
+    top: -733px !important;
+    transform: unset !important;
+    width: 45px !important;
+  }
+  
+  .screen .left-square-8 {
+    height: 45px !important;
+    left: 793px !important;
+    top: -733px !important;
+    transform: unset !important;
+    width: 45px !important;
+  }
+  
+  .screen .calendar-thirty-two {
+    height: 50px;
+    left: -138px;
+    position: absolute;
+    top: -1396px;
+    width: 51px;
+  }
+  
+  .screen .align-text-left-instance {
+    left: -229px !important;
+    top: -1392px !important;
+  }
+  
+  .screen .line-wrapper {
+    background-image: url(../assets/line-64.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1px;
+    left: -853px;
+    position: absolute;
+    top: -1174px;
+    width: 762px;
+  }
+  
+  .screen .line-2 {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 762px;
+  }
+  
+  .screen .img-wrapper {
+    background-image: url(../assets/line-64.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1px;
+    left: 71px;
+    position: absolute;
+    top: -1174px;
+    width: 762px;
+  }
+  
+  .screen .overlap-3 {
+    background-image: url(../assets/line-64.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1px;
+    left: -853px;
+    position: absolute;
+    top: -1074px;
+    width: 762px;
+  }
+  
+  .screen .overlap-4 {
+    background-image: url(../assets/line-64.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1px;
+    left: 71px;
+    position: absolute;
+    top: -1074px;
+    width: 762px;
+  }
+  
+  .screen .overlap-5 {
+    background-image: url(../assets/line-64.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1px;
+    left: -853px;
+    position: absolute;
+    top: -976px;
+    width: 762px;
+  }
+  
+  .screen .overlap-6 {
+    background-image: url(../assets/line-64.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1px;
+    left: 71px;
+    position: absolute;
+    top: -976px;
+    width: 762px;
+  }
+  
+  .screen .overlap-7 {
+    background-image: url(../assets/line-64.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1px;
+    left: -853px;
+    position: absolute;
+    top: -876px;
+    width: 762px;
+  }
+  
+  .screen .overlap-8 {
+    background-image: url(../assets/line-64.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1px;
+    left: 71px;
+    position: absolute;
+    top: -876px;
+    width: 762px;
+  }
+  
+  .screen .line-3 {
+    height: 1px;
+    left: -853px;
+    object-fit: cover;
+    position: absolute;
+    top: -778px;
+    width: 762px;
+  }
+  
+  .screen .line-4 {
+    height: 1px;
+    left: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: -778px;
+    width: 762px;
+  }
+  
+  .screen .line-5 {
+    height: 1px;
+    left: -853px;
+    object-fit: cover;
+    position: absolute;
+    top: -1272px;
+    width: 762px;
+  }
+  
+  .screen .line-6 {
+    height: 1px;
+    left: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: -1272px;
+    width: 762px;
+  }
