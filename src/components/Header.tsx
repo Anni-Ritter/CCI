@@ -19,7 +19,7 @@ const Header: React.FC = () => {
                 </div>
                 <nav className="nav">
                     <ul>
-                        <li><Link to="#">Меню</Link></li>
+                        <li><Link className="header-text" to="#">Меню</Link></li>
                         <li><Link to="#">Личный кабинет</Link></li>
                         <li><Link to="#">Вступить в палату</Link></li>
                         <li><Link to="/calendar">Календарь мероприятий</Link></li>

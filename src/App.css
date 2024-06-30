@@ -48,6 +48,11 @@
   justify-content: center;
 }
 
+.header-text {
+  color: #040D67;
+  font-size: 20px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -120,6 +125,22 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.events-container-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.events-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -200,13 +221,14 @@
 
 .networking-event {
   display: flex;
-  align-items: center;
-  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
   border: 1px solid #e5e5e5;
   border-radius: 10px;
   margin-bottom: 20px;
   background-image: url("./assets/background.png");
-  height: 600px;
+  height: 904px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -225,14 +247,45 @@
   border-radius: 10px;
 }
 
+.networking-visa-support {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-image: url("./assets/85gb-photo-t-f1jti2608-unsplash-2.png");
+  height: 904px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.networking-visa-support::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(4, 13, 103, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
 .event-image img {
   max-width: 100%;
   border-radius: 10px;
 }
 
 .event-details {
-  margin-left: 20px;
   position: relative;
+  left: 0;
+  bottom: 0;
   z-index: 2;
   text-align: center;
   color: white;
@@ -240,6 +293,7 @@
 
 .event-details h1 {
   margin-bottom: 10px;
+  padding-left: 20px;
   font-family: "Geologica-Regular", Helvetica;
   font-size: 90px;
   font-weight: 500;
@@ -247,21 +301,49 @@
   text-align: left;
 }
 
+.event-details-rectangle-wrapper {
+  background: #F3F2F9;
+  border-radius: 0 25px 0px 0;
+  padding: 10px 15px 0px 0px;
+  align-self: start;
+  color: #ffffff;
+  /* width: 702px; */
+  height: 388px;
+}
+.event-bottom-right-icon {
+  background: url('./assets/mask-group.png');
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 176px;
+  height: 246px;
+  padding: 10px;
+  background-repeat: no-repeat;
+}
+
 .event-details-rectangle {
   background: linear-gradient(122.19deg, #A5ADDF -3.11%, #6B78CA 24.11%, #293BA8 60.41%, #243192 93.92%);
-  width: 50%;
   border-radius: 0 25px 25px 0;
   padding: 25px;
+  align-self: start;
+  color: #ffffff;
+  position: relative;
+  /* width: 650px; */
+  height: 338px;
+}
+
+.event-details-rectangle .button {
+  margin-top: 100px;
 }
 
 .event-details-rectangle p {
-  font-size: 16px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
 .event-details-rectangle button {
-  background-color: #0033A0;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -269,7 +351,8 @@
 }
 
 .event-details-rectangle button:hover {
-  background-color: #002080;
+  background-color: #787879;
+  color: #fff;
 }
 
 .upcoming-events {
@@ -278,22 +361,43 @@
   border-radius: 10px;
   border: 1px solid #e5e5e5;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
 }
 
 .upcoming-events h2 {
-  font-size: 20px;
+  font-size: 40px;
   margin-bottom: 15px;
+  color: #040D67;
 }
 
 .upcoming-events ul {
   list-style: none;
   padding: 0;
+  margin-top: 40px;
 }
 
 .upcoming-events ul li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  color: #040D67;
+  font-size: 25px;
+  height: 99px;
+}
+
+.liContainer {
+  display: flex;
+  border-top: #000;
+  border-top-width: 2px;  
+  border-top-style: solid;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.titleEvent {
+  padding-left: 30px;
 }
 
 .upcoming-events ul li span:first-child {
@@ -317,6 +421,8 @@
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #e5e5e5;
+  display: flex;
+  flex: 1 1 0%;
 }
 
 .latest-news h2 {
@@ -359,12 +465,19 @@
 .home-sections {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 @media (max-width: 768px) {
   .home-sections {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header {
+    display: none;
   }
 }
 
