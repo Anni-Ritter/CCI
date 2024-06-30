@@ -25,51 +25,53 @@ export const SubscriptionMain = (): JSX.Element => {
                         title="Email*"
                         placeholder="Введите ваш email"/>
                     <div className="mainSubscriptionContainer">
-                            <div className="calendarInputTitle">Язык*</div>
-                            <div className="subSubscriptionContainer">
-                            <SubscriptionRadio
-                                title="Russian"/>
-                            <SubscriptionRadio
-                                title="French"/>
-                            <SubscriptionRadio
-                                title="Russian and French"/>
+                        <div className="calendarInputTitle">Язык*</div>
+                        <div className="subSubscriptionContainer">
+                        <SubscriptionRadio
+                            title="Russian"/>
+                        <SubscriptionRadio
+                            title="French"/>
+                        <SubscriptionRadio
+                            title="Russian and French"/>
                         </div>
                     </div>
                 </div>
                 <div className="subSubscriptionContainer">
                     <SubscriptionInput
                         title="Prenom - Имя (На Латинице)*"
-                        placeholder="Введите ваш email"/>
+                        placeholder="Ivan"/>
                     <SubscriptionInput
                         title="Nom - Фамилия (На Латинице)*"
-                        placeholder="Введите ваш email"/>
+                        placeholder="Petrov"/>
                 </div>
                 <div className="subSubscriptionContainer">
                     <SubscriptionInput
                         title="Имя - Prenom (En Cyrillique)"
-                        placeholder="Введите ваш email"/>
+                        placeholder="Иван"/>
                     <SubscriptionInput
                         title="Фамилия - Nom (En Cyrillique)"
-                        placeholder="Введите ваш email"/>
+                        placeholder="Петров"/>
                 </div>
                 <div className="subSubscriptionContainer">
                     <SubscriptionInput
                         title="Компания - Entreprise*"
-                        placeholder="Введите ваш email"/>
+                        placeholder="Company  Name LLC"/>
                     <SubscriptionInput
                         title="Должность - Poste*"
-                        placeholder="Введите ваш email"/>
+                        placeholder="CEO"/>
                 </div>
             </div>
-            <div className="mainSubscriptionContainer">
-                <div className="calendarInputTitle">Локация</div>
-                <div className="subSubscriptionContainer">
+            <div className="subSubscriptionContainer">                
+                <div className="mainSubscriptionContainer">
+                    <div className="calendarInputTitle">Локация</div>
+                    <div className="subSubscriptionContainer">
                     <SubscriptionRadio
                         title="В России / En Russie"/>
                     <SubscriptionRadio
                         title="Во Франции / En France"/>
                     <SubscriptionRadio
                         title="Другое / Autre"/>
+                    </div>
                 </div>
             </div>
             <div style={{paddingTop: 40}}>
