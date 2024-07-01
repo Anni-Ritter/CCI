@@ -1076,16 +1076,21 @@
     width: 1713px;
   }
   
-  .screen .CCI-amcham {
-    color: #000000;
+  .titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .CCI-amcham {
+    color: #040D67;
     font-family: "Geologica-Regular", Helvetica;
-    font-size: 15px;
+    font-size: 40px;
     font-weight: 400;
-    left: 3152px;
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 581px;
+    text-align: center;
   }
   
   .screen .element-2 {
@@ -1388,4 +1393,293 @@
     position: absolute;
     top: -1272px;
     width: 762px;
+  }
+
+  /* services */
+  .container-7 {
+    border-radius: 25px;
+    background: linear-gradient(122.19deg, #A5ADDF -3.08%, #6B78CA 24.14%, #293BA8 60.43%, #243192 93.95%);
+    position: relative;
+    display: flex;
+    padding: 52px 44px 38px 43px;
+    box-sizing: border-box;
+    flex: 1 1 0%;
+    min-width: 30%;
+    height: 600px;
+  }
+
+  .container-49 {
+    border-radius: 25px;
+    background: #E9E7E7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 43px 38px 52px;
+    box-sizing: border-box;
+    flex: 1 1 0%;
+    min-width: 30%;
+    height: 600px;
+  }
+
+  .container-17 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .container-32 {
+    margin: 0 1px 51px 1px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: "Geologica-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+  }
+
+  .container-39 {
+    margin-bottom: 270px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: "Geologica-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+
+  .container-1 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+
+  .container-40 {
+    margin: 5px 25.8px 9px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: "Geologica-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+
+  .container-41 {
+    margin: 5px 25.8px 9px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: "Geologica-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: #040D67;
+  }
+
+  .left-square-2 {
+    width: 45px;
+    height: 45px;
+  }
+
+  .servicesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex: 1 1 0%;
+  }
+
+  .b-2-b {
+    margin: 0 1px 51px 1px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: "Geologica-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 40px;
+    color: #040D67;
+  }
+
+  .container-99 {
+    margin-bottom: 270px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: "Geologica-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: #040D67;
+  }
+
+  .container-36 {
+    background-image: url('./../assets/3.svg');
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 500px;
+    height: 500px;
+  }
+
+  .container-21 {
+    display: inline-block;
+    width: 707.5px;
+    overflow-wrap: break-word;
+    font-family: "Geologica-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: #040D67;
+  }
+
+  .spaceBetweenContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* calendar */
+  .spaceBetweenCalendarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .digitContainer {
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: center;
+    color: #040D67;
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    position: relative;
+  }
+
+  .digitWhiteContainer {
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    position:absolute;
+    left: 50%;
+    top: 30%;
+    translate: -50% -50%;
+  }
+
+  .calendarTitleContainer {
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    position: relative;
+  }
+
+  .calendarTitlePart {
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: center;
+    color: #040D67;
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    position: relative;
+  }
+
+  .iconContainer {
+    background-image: url('./../assets/3.svg');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+  }
+
+  .subscriptionContainer {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+    background: linear-gradient(122.19deg, #A5ADDF -3.08%, #6B78CA 24.14%, #293BA8 60.43%, #243192 93.95%);
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    flex: 1 1 0%;
+    flex-direction: column;
+    min-height: 600px;
+    padding: 50px 50px;
+  }
+
+  .mainSubscriptionContainer {
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+  }
+
+  .mainSubscriptionInput {
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    margin-right: 20px;
+
+  }
+
+  .subSubscriptionContainer {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    flex: 1 1 0%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+  }
+
+  .calendarInputTitle {
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 31.25px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .calendarInput {
+    font-family: "Geologica-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 15px;
+    line-height: 40px;
+    color: #000000;
+    margin: 0px;
+    position: relative;
+
   }

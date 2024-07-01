@@ -1,17 +1,18 @@
 import React from 'react';
 
-const NetworkingEvent: React.FC = () => {
+const VisaSupport: React.FC = () => {
   return (
-    <section className="networking-event">
+    <section className="networking-visa-support">
       <div className="event-details">
-        <h1>Нетворкинг-встреча<br />
-          CCI France Russie и AmCham </h1>
+        <h1>Визовая поддержка<br/>
+            компаний-членов CCI France Russie</h1>
       </div>
       <div className='event-details-rectangle-wrapper'>
         <div className='event-details-rectangle'>
-            <p>В Москве состоялась нетворкинг-встреча <br />
-            международных ассоциаций CCI France Russie<br />
-            и AmCham (Американской торговой палаты)</p>
+            <p>Вступайте в Франко-российской торгово-<br/>
+              промышленную палату (CCI France Russie),<br/>
+              мы окажем всестороннюю поддержку по<br/>
+              получению визы</p>
             <div className='button'>
               <svg width="211" height="47" viewBox="0 0 211 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="211" height="47" rx="10" fill="white"/>
@@ -27,4 +28,4 @@ const NetworkingEvent: React.FC = () => {
   );
 };
 
-export default NetworkingEvent;
+export default VisaSupport;
